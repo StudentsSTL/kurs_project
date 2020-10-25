@@ -1,0 +1,161 @@
+html {
+    overflow-y: scroll;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    margin:0;
+    padding: 0;
+    background: url('images/jpg/back3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed, fixed;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.menu{
+    float: left;
+    position:fixed;
+    border: 1px solid #AFEEEE;
+    background-color: #E0FFFF;
+    height: 100%;
+    z-index:2000;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.menu button{
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+
+.menu button:hover{
+    background-color:#AFEEEE;
+}
+
+.menu button:active{
+    background-color:#7FFFD4;
+}
+
+.tabcontent {
+    position:absolute;
+    right:2%;
+    padding: 0px 12px;
+    width: 85%;
+    border-left: none;
+    height: 660px;
+}
+
+.tabcontent h3,p{
+    color:white;
+    text-shadow: 1px 1px 2px #2791cb;
+}
+
+.tab{
+    border-collapse: collapse;
+    background-color:#deedf7;
+    border-radius:10px;
+
+}
+
+.tab tr:not(:last-child){
+    border-bottom:2px solid #1aa6b7;
+}
+.tab td:not(:last-child):not(:first-child),
+.tab th:not(:last-child):not(:first-child){  
+    border-left:2px solid #1aa6b7;
+    border-right:2px solid #1aa6b7;
+}
+
+.tab th {
+    height:50px;
+    color:#1aa6b7;
+}
+
+.tab td input[type="text"],[type="date"],.select_key{
+    text-align:center;
+    background-color:#deedf7;
+    padding: 5px 5px 5px 5px;
+    width:90%;
+    margin:0;
+    outline:none;
+    font-family: Arial;
+    font-size: 0.9rem;
+    border:1px solid #deedf7;
+}
+
+.otch_table{
+    border:1px solid black;
+}
+
+input[type="submit"]{
+    border-radius:15px;
+    margin-bottom:10px;
+    margin-right:10px;
+    padding:5px 25px 5px 25px;
+    border: 1px solid #1aa6b7;
+    outline:none;
+    background-color: #E0FFFF;
+    font-family:Arial;
+    font-weight:700;
+    font-size:15px;
+    color: #1aa6b7;
+}
+
+input[type="submit"]:hover{
+    background-color:#AFEEEE;
+}
+
+input[type="submit"]:active{
+    background-color:#7FFFD4;
+}
+
+.select_key{
+    text-align:center;
+    background-color:#deedf7;
+    width:100%;
+    margin:0;
+    outline:none;
+    font-family: Arial;
+    font-size: 0.9rem;
+    border:1px solid #deedf7;
+}
+
+.select_otch{
+    text-align:center;
+    background-color:#deedf7;
+    padding: 4px 5px 4px 5px;
+    margin-right:10px;
+    outline:none;
+    font-family: Arial;
+    font-size: 0.9rem;
+    border:1px solid #deedf7;
+    color: #0b6974;
+    border: 1px solid #1aa6b7;
+    background-color:#E0FFFF;
+    border-radius: 15px;
+}
+
+
+.tab td input[type="text"]:hover,[type="date"]:hover,.select_key:hover{
+    border:1px solid #1aa6b7;
+    background-color:#c6e5f9;
+    border-radius:15px;
+}

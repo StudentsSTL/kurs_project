@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+    background: url('images/jpg/mainbg.jpg');
+    background-size: 100%;
+    background-attachment: fixed, fixed;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bron_form{
+    position: relative;
+    top:100px;
+    text-align: center;
+    border: 1px solid rgb(245, 248, 248);
+    height: 500px;
+    width: 600px;
+    background-color: rgb(245, 248, 248);
+
+}
+
+.bron_but{
+    padding: 5px 6px;
+    outline: none;
+    border: 1px solid #034a94;
+    color:#034a94;
+    background-color: white;
+}
+
+.bron_but:hover{
+    border: 1px solid #fcc75e;
+    color: #fcc75e;
+}
+
+.tab{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #1aa6b7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tab select, input{
+    outline:none;
+    padding:5px 6px;
+    border: 1px solid #034a94;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    color:#034a94;
+}
+
+.tab th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding: 10px 10px;
+    color: #034a94;
+  }
+  
+  .tab td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 7px 10px 7px;
+    color:#1aa6b7;
+  }
+
+  .tab tr:not(:last-child){
+    border-bottom:1px solid #1aa6b7;
+}
+.tab td:not(:last-child):not(:first-child),
+.tab th:not(:last-child):not(:first-child){  
+    border-left:1px solid #1aa6b7;
+    border-right:1px solid #1aa6b7;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 60px;
+    color:#034a94;
+}
